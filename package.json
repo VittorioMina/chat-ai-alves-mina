@@ -1,0 +1,20 @@
+{
+  "name": "chat-ia-mandacaru",
+  "version": "1.0.0",
+  "description": "Mandacaru: monitor de Algoritmos com IA (Node + Express + API da Groq). Atividade da Aula 4, TEC13, IFBA Campus Irecê.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "groq-sdk": "^1.6.0"
+  }
+}
